@@ -1,1 +1,22 @@
-wdqd
+charset - tipo de escrita -sempre será UTF-8
+Tag lang fica dentro da tag HTML- <html lang="pt-br"
+Tags:
+<hr/> Função de pular linha
+Atalhos:
+div*5 cria 5 divs- serve para outras tags
+div*5>p cria as 5 divs com a tag p 
+div.
+
+. define a classe a qual a tag html esta ligada
+div.container "cria a div com a classe container
+div#id "cria a div com um id"
+
+div*5>p{teste} cria a div com a tag paragrafo e dentro das chaves o conteudo daquele paragrafo
+
+meta[charset] criar a tag ja com o conteudo definido
+
+ctrl+d após selecionar o texto é possivel usa=lo para alterar tudo que for igual
+ctrl+ delete
+ctrl+alt seta pra baixo seleciona as linhas que voce quer editar, porem so ira editar a parte que esta na reta do cursor
+ctrl+alt+shift altera a direção da setinha
+
