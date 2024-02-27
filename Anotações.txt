@@ -1,7 +1,7 @@
 charset - tipo de escrita -sempre será UTF-8
 Tag lang fica dentro da tag HTML- <html lang="pt-br"
 Tags:
-<hr/> Função de pular linha
+<hr/> Função de criar uma linha sublinhada abaixo do conteudo
 Atalhos:
 div*5 cria 5 divs- serve para outras tags
 div*5>p cria as 5 divs com a tag p 
@@ -20,3 +20,9 @@ ctrl+ delete
 ctrl+alt seta pra baixo seleciona as linhas que voce quer editar, porem so ira editar a parte que esta na reta do cursor
 ctrl+alt+shift altera a direção da setinha
 
+
+<!-- comentario --> estrutura de comentário
+
+padding tag de espaçamento externo
+
+Color picker - seletor de cores do google  
