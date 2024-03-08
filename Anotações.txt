@@ -41,3 +41,7 @@ p{
 :hover pseudoclasse css , ex: passar o mouse em cima de um botão realiza alguma ação
 
 Bootstrap- Pesquisar sobre;
+
+link = azul (link não visualizado)
+vlink = lilás (link visitado)
+Aline = vermelho (link ativado)
