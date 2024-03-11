@@ -45,3 +45,6 @@ Bootstrap- Pesquisar sobre;
 link = azul (link não visualizado)
 vlink = lilás (link visitado)
 Aline = vermelho (link ativado)
+
+JAVASCRIPT
+
