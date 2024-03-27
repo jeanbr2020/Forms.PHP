@@ -24,6 +24,7 @@ body {
  
 }
 
+/* tema escuro forms */
 body[data-theme="light"] {
     background-color: white;
     color: black;
@@ -33,7 +34,23 @@ body[data-theme="light"] {
     background-color: black;
     color: white;
   }
-  
+
+
+
+/* tema escuro footer */
+
+  .footer {
+    height: 115px;
+    display: flex;
+    justify-content: center; /* Alinha o conteúdo verticalmente ao centro */
+}
+
+.text_footer, .text-muted, .footer div {
+    font-size: 0.9em; /* Reduz o tamanho da fonte */
+    margin-top: 4px; /* Remove margens */
+}
+
+
   .footer[data-theme="light"] {
     background-color: #f8f9fa;
   }
@@ -50,6 +67,7 @@ body[data-theme="light"] {
     color: white;
   }
   
+  /* tema escuro tabela */
   body[data-theme='light'] {
     background-color: white;
     color: black;
@@ -74,4 +92,30 @@ body[data-theme="light"] {
 
 body[data-theme='dark'] .table th {
     color: white;
+}
+
+ /* página de termos de serviço */
+.termo{
+  background-color: black;
+}
+
+#term {
+  font-family: Arial, sans-serif;
+  color: white;
+  width: 80%;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.poli{
+  background-color: black;
+}
+
+#estilo {
+  font-family: Arial, sans-serif;
+  color: white;
+  width: 80%;
+  margin: auto;
 }
