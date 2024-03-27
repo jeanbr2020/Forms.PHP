@@ -68,11 +68,11 @@ body[data-theme="light"] {
     color: white;
   }
   
-  body[data-theme='light'] .table th {
+  body[data-theme='light'] .table td {
     color: black;
 }
 
-body[data-theme='dark'] .table th {
+body[data-theme='dark'] .table td{
     color: white;
 }
 
