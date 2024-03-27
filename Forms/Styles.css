@@ -68,5 +68,13 @@ body[data-theme="light"] {
     color: white;
   }
   
+  body[data-theme='light'] .table th {
+    color: black;
+}
+
+body[data-theme='dark'] .table th {
+    color: white;
+}
+
  
   
