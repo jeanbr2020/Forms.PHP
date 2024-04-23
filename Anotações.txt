@@ -1,0 +1,69 @@
+charset - tipo de escrita -sempre será UTF-8
+Tag lang fica dentro da tag HTML- <html lang="pt-br"
+Tags:
+<hr/> Função de criar uma linha sublinhada abaixo do conteudo
+Atalhos:
+div*5 cria 5 divs- serve para outras tags
+div*5>p cria as 5 divs com a tag p 
+div.
+
+. define a classe a qual a tag html esta ligada
+div.container "cria a div com a classe container
+div#id "cria a div com um id"
+
+div*5>p{teste} cria a div com a tag paragrafo e dentro das chaves o conteudo daquele paragrafo
+
+meta[charset] criar a tag ja com o conteudo definido
+
+ctrl+d após selecionar o texto é possivel usa=lo para alterar tudo que for igual
+ctrl+ delete
+ctrl+alt seta pra baixo seleciona as linhas que voce quer editar, porem so ira editar a parte que esta na reta do cursor
+ctrl+alt+shift altera a direção da setinha
+
+
+<!-- comentario --> estrutura de comentário
+
+padding tag de espaçamento externo
+
+Color picker - seletor de cores do google  
+
+
+tag <lik>
+tag rel indica a relação entre o documento atual e o relacionado
+tag type especifica o tipo de midia do documento
+tag href especifica a rlocalização do documento vinculado ex: style.css
+
+DENTO DO DOCUMENTO CSS
+
+p{
+  tudo que for alterado aqui dentro afetará todas as tags p
+} válido também para outras tags
+:hover pseudoclasse css , ex: passar o mouse em cima de um botão realiza alguma ação
+
+Bootstrap- Pesquisar sobre;
+
+link = azul (link não visualizado)
+vlink = lilás (link visitado)
+Aline = vermelho (link ativado)
+
+JAVASCRIPT
+
+
+
+.htacess
+
+<?php
+$request = $_GET['url'];
+
+switch ($request) {
+    case '' :
+        require __DIR__ . '/pages/home.php';
+        break;
+    case 'about' :
+        require __DIR__ . '/views/about.php';
+        break;
+    default:
+        require __DIR__ . '/views/404.php';
+        break;
+}
+?>
